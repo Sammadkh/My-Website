@@ -1,0 +1,518 @@
+/* ---------------------------------------------FIRST-SECTION--------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-section::before {
+    background: url(./image/image\ 8.jpg) no-repeat center/cover;
+    content: "";
+    height: 750PX;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.first-section {
+    height: 750px;
+    width: 100%;
+}
+
+nav img {
+    width: 150px;
+    height: 100px;
+    margin-top: -40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: black;
+    height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .div-a a {
+    padding: 15px 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    background-color: rgb(226, 16, 16, 0.4);
+    color: aliceblue;
+    border: 2px solid wheat;
+    font-size: 20px;
+    margin-top: -20px;
+    transition: 1s;
+}
+
+nav .div-a a:hover {
+    letter-spacing: 2px;
+    background-color: red;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navigation-bar .h1-heading {
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: left;
+    padding: 0px 50px;
+    margin-top: 200px;
+    font-family: 'Lilita One', cursive;
+}
+
+.navigation-bar h1 {
+    font-size: 150px;
+    display: flex;
+    justify-content: left;
+    padding: 0px 50px;
+    font-family: 'Lilita One', cursive;
+}
+
+.navigation-bar a {
+    padding: 15px 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    background-color: rgb(249, 9, 9, 0.7);
+    text-decoration: none;
+    color: rgb(4, 4, 5);
+    border: 2px solid wheat;
+    font-size: 20px;
+    margin-left: 50px;
+    transition: 1s;
+}
+
+.navigation-bar a:hover {
+    letter-spacing: 2px;
+    background-color: red;
+    color: antiquewhite;
+}
+
+/* ---------------------------------------------SECOND-SECTION--------------------------------------------- */
+
+.second-section {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+}
+
+.card {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 5px;
+    opacity: 0.7;
+    position: relative;
+    background: url(./image/image\ 3.jpg) no-repeat center/cover;
+}
+
+.card .text h1 {
+    text-align: center;
+    padding-top: 130px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card .text p {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card .text button {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid wheat;
+    background-color: red;
+    color: aliceblue;
+    padding: 15px 30px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.card .text button:hover {
+    letter-spacing: 2px;
+}
+
+.all-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-section .main-heading h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    filter: drop-shadow(10px 10px 0px rgb(120, 119, 119));
+}
+
+/* ---------------------------------------------SECOND-CARD--------------------------------------------- */
+
+.second-section .card-1 {
+    width: 400px;
+    color: rgb(251, 246, 246);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.second-section .card-1 img {
+    max-width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.second-section .card-1 h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.second-section .card-1 p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.all-card-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* -----------------------------------------SECOND-SECTION-CARD-2----------------------------------------- */
+.card-2 {
+    transform: translate(0px, 0px);
+    width: 400px;
+    margin-top: 50px;
+}
+
+/* .card-2 .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} */
+
+.card-2 .image img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.card-2 .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    background: rgba(252, 0, 0, 0.5);
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotatey(-90deg);
+}
+
+.card-2:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+
+.card-2 .card-2-text h1 {
+    color: #fbf8f8;
+    font-family: 'Lilita One', cursive;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.card-2 .card-2-text h1 span {
+    font-size: 50px;
+}
+
+.all-card-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-card-02 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---------------------------------------------THIRD-SECTION--------------------------------------------- */
+
+.third-section {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fbf8f8;
+}
+
+.third-section .third-section-heading h1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    filter: drop-shadow(10px 10px 0px rgb(120, 119, 119));
+}
+
+.third-section .card-3 {
+    width: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 20px;
+    border: 1px solid rgb(61, 61, 61);
+    padding-bottom: 20px;
+}
+
+.third-section .card-3 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.third-section .card-3 .text h1 {
+    font-size: 25px;
+}
+
+.third-section .card-3 .text span {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.third-section .card-3 .text p {
+    margin-bottom: 20px;
+}
+
+.third-section .card-3 .button button {
+    text-decoration: none;
+    border: 1px solid wheat;
+    color: aliceblue;
+    background-color: black;
+    font-size: 18px;
+    transition: 1s;
+    padding: 15px 120px;
+}
+
+.third-section .card-3 .button button:hover {
+    background-color: red;
+}
+
+.third-section .all-card-03 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-section .image-text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    padding-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.third-section .image-text .all-heading {
+    padding-left: 40px;
+}
+
+.third-section .image-text .all-heading h1 {
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+.third-section .image-text .all-heading p {
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.third-section .image-text .all-heading-button {
+    text-decoration: none;
+    padding-top: 40px;
+    color: #fbf8f8;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: 2px solid wheat;
+    transition: 1s;
+}
+
+.third-section .image-text .all-heading-button:hover {
+    background-color: red;
+    letter-spacing: 2px;
+}
+
+/* ---------------------------------------------FORTH-SECTION--------------------------------------------- */
+
+.forth-section {
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.forth-section .forth-section-text {
+    margin-left: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    filter: drop-shadow(10px 10px 0px rgb(120, 119, 119));
+    margin-bottom: 50px;
+}
+
+.forth-section .forth-section-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forth-section .all-image{
+    width: 100%;
+    overflow: hidden;
+    filter: brightness(50%);
+}
+
+.forth-section .imaging img{
+    transition: 1s;
+    max-width: 100%;
+}
+
+.forth-section .imaging img:hover {
+    background-color: rgba(236, 5, 5, 0.3);
+    transform: scale(1.2);
+}
+
+
+.forth-section .red {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(246, 250, 250);
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.forth-section-card {
+    width: 400px;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.forth-section-card img {
+    width: 100PX;
+    height: 100PX;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+.forth-section-all-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------LAST-SECTION-FOOTER------------------------------------------ */
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer h1 {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    color: #fbf8f8;
+    margin-bottom: 50px;
+}
+
+.footer .footer-link {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-link a {
+    text-decoration: none;
+    color: #f7f5f5;
+    margin: 0px 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.footer .footer-link a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.footer .footer-last-heading p {
+    color: #f7f5f5;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footer-last-heading span {
+    color: red;
+}
+
+.footer .footer-last-heading span:hover {
+    color: wheat;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
